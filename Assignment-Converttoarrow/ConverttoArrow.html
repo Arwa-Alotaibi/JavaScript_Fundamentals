@@ -25,6 +25,9 @@
         I want to click anywhere in this paragraph tag and I want to be able to change the background color to whatever is in this input: <input type="text"/>.
     </p>
     <script>
+       // Update all methods to become Arrow functions
+
+
         document.getElementById("button").onclick =() =>
             setBackgroundColorById("paragraph", "blue");
         
@@ -43,9 +46,12 @@
         const setBackgroundColorById = (id, color) =>
         document.getElementById(id).style = "background-color: " + color;
 
+
         const mouseover = el =>
         el.style = "background-color: black";
 
+        //Connect the EventListener `setBackgroundColorById` to the paragraph in the HTML
+        button.addEventListener  ("onclick",function() {setBackgroundColorById("paragraph", "blue")})
 
 
 
