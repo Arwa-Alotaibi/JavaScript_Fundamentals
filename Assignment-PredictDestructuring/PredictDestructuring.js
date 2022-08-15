@@ -15,7 +15,7 @@ const employee = {    name: 'Elon',
 //Predict the output
  console.log(name); 
   console.log(otherName);// elon 
-  // eroer
+  // eror
 
 console.log('--Problem 3--')
 const person = {
